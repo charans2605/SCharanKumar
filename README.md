@@ -4,6 +4,14 @@
 
 This repository contains solutions for the programming problems provided as part of the screening test.
 
+## Programming Language
+
+All solutions in this repository are developed using **Python 3**.
+
+## Code Documentation
+
+Each program file includes in-line comments that explain the logic, inputs, outputs, and important sections of the code. This is intended to improve clarity, maintainability, and ease of understanding for anyone reviewing the code.
+
 ---
 
 ### Problem-1: Calculator using Class  
