@@ -1,8 +1,16 @@
-def pattern(n):
-    for i in range(1, n + 1):
-        for j in range(1, i + 1):
-            print(j, end=' ')
-        print()  
+def series(a):
+    series = []
+    num = 1
+    for _ in range(a):
+        series.append(num)
+        num += 2
+    return series
 
-rows = int(input("enter no of rows: "))
-pattern(rows)
+a = int(input("enter the value of a: "))
+
+if a <= 0:
+    print("enter a positive integer.")
+else:
+    res = 3
+    series(a)
+    print("output:", ', '.join(map(str, res)))
