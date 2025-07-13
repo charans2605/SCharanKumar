@@ -1,8 +1,12 @@
-def total_nums(l1, l2):
-    c1 = len(l1)
-    c2 = len(l2)
-    total = c1 + c2
-    return total
-l1 = [0, 2, 4, 4, 5, 9, 7]
-l2 = [4, 6, 9]
-print("total no of elements:", total_nums(l1, l2))
+def find_counts(num_list):
+    counts = {key: 0 for key in range(1, 10)} 
+
+    for number in num_list:
+        for divisor in range(1, 10):
+            if number % divisor == 0:
+                counts[divisor] += 1  
+
+    return counts
+numbers = [1, 2, 8, 9, 12, 46, 76, 82, 15, 20, 30]
+multiple_counts = find_counts(numbers)
+print(multiple_counts)
