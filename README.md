@@ -22,6 +22,7 @@ A program to create a simple calculator using a class. The calculator performs o
 ### Problem-2: Odd Number Series Generator  
 **Description:**  
 A program to generate a series of odd numbers starting from 1, based on a user-provided input number `a`. The program will display the first `a` odd numbers in sequence.
+
 ```
 **Example:**
 Input: 1
@@ -32,7 +33,7 @@ Output: 1, 3
 
 Input: 3
 Output: 1, 3, 5
-
+```
 
 **File:** `Problem-2.py`
 
@@ -48,6 +49,7 @@ A program to generate a series of odd numbers starting from 1 based on the value
 **Example:**
 Input: 3
 Output: 1, 3, 5
+```
 
 
 **File:** `Problem-3.py`
@@ -62,7 +64,7 @@ A program to count how many numbers in a given list are multiples of 1 through 9
 
 Input List: [1, 2, 8, 9, 12, 46, 76, 82, 15, 20, 30]
 Output: {1: 11, 2: 8, 3: 4, 4: 4, 5: 3, 6: 2, 7: 0, 8: 1, 9: 1}
-
+```
 
 **File:** `Problem-4.py`
 
