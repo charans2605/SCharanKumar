@@ -1,15 +1,19 @@
-def gen_series(a):
+def generate_series(a):
     series = []
+    count = 0
     num = 1
-    for _ in range(a):
+
+    limit = a if a % 2 != 0 else a - 1
+    
+    while count < limit:
         series.append(num)
         num += 2  
+        count += 1
     return series
 
-a = int(input("enter the value of a: "))
-
+a = int(input("Enter the value of a: "))
 if a <= 0:
-    print("enter a positive integer.")
+    print("Please enter a positive integer.")
 else:
-    res = gen_series(a)
-    print("output:", ', '.join(map(str, res)))
+    result = generate_series(a)
+    print("Output:", ', '.join(map(str, result)))
